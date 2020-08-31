@@ -29,5 +29,7 @@ namespace SonicBoom
 			hInstace.UnpatchAll();
 			ev = null;
 		}
+
+		public override string Author => "Cyanox";
 	}
 }

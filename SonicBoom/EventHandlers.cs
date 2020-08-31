@@ -7,7 +7,7 @@ namespace SonicBoom
 	{
 		internal void OnGrenadeExplode(ExplodingGrenadeEventArgs ev)
 		{
-			if (ev.Grenade.GetComponent<Tracker>() != null) ev.Targets.Clear();
+			if (ev.Grenade.GetComponent<Tracker>() != null) ev.TargetToDamages.Clear();
 		}
 	}
 }
